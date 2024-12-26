@@ -1,0 +1,85 @@
+body{
+	background-color: rgb(246, 246, 246);
+}
+.wrapper{
+	height: 100vh;
+}
+.form{
+ width: 275px;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ justify-self: center;
+ border-radius: 10px;
+ background-color: white;
+ margin-top: 50px;
+}
+/* .input{
+
+} */
+.inp:nth-child(1){
+	margin-top: 25px;
+}
+.inp{
+	justify-self: center;
+	margin-top: 10px;
+	width: 200px;
+	height: 30px;
+}
+.btn{
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 30px;
+	border: none;
+	background-color: rgb(73, 155, 255);
+	font-size: 13px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: white;
+	margin-bottom: 20px;
+	
+}
+
+.contact-container{
+	margin-top: 10px;
+	width: 200px;
+	border-radius: 10px;
+	justify-self: center;
+}
+.task-list{
+	padding-top: 15px;
+	list-style: none;
+	padding-bottom: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	justify-content: center;
+}
+li{
+	background-color: rgba(255, 255, 255, 0.659);
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 15px;
+}
+.p{
+	text-align: center;
+}
+.hidden{
+	display: none;
+}
+.btn-action{
+	width: 100px;
+	height: 30px;
+	border-radius: 30px;
+	border: none;
+	background-color: rgb(73, 155, 255);
+	font-size: 13px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	color: white;
+}
+.button{
+	justify-self: center;
+	padding-bottom: 10px;
+}
